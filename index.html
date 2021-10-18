@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- STRUCTURE -->
+    <!-- nav start -->
+    <nav>
+        <!-- container align-items center begins -->
+        <div class="nav-container">
+            <h1 class="dojonary-title">Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <button class="login" onclick="logOut(this)">Login</button>
+        </div>
+        <!-- container align-items center ends -->
+    </nav>
+    <!-- nav ends -->
+    <!-- container align-items flex start begins -->
+    <div class="main-container">
+        <!-- left column begins -->
+        <div class="left-column">
+            <!-- ninja card 1 begins -->
+            <div class="ninja-card-one">
+                <div class="card-one-left-content">
+                    <h1 class="ninja">ninja</h1>
+                    <h3>noun</h3>
+                    <h4>Plural: ninjas</h4>
+                    <button class="like-btn" onclick="alert('Ninja was liked');">13 likes</button>
+                </div>
+                <div class="card-one-right-content">
+                    <p>A practitioner skilled in the<br><a href="#">Japanese</a> art 
+                    of<a href="#"> ninjutsu</a></p>
+                </div>
+            </div>
+            <!-- ninja card 1 ends -->
+            <!-- ninja card 2 begins -->
+            <div class="ninja-card-two">
+                <div class="card-two-left-content">
+                    <h1 class="ninja">ninja</h1>
+                    <h3>noun</h3>
+                    <h4>Plural: ninjas</h4>
+                    <button class="like-btn">37 likes</button>
+                </div>
+                <div class="card-two-right-content">
+                    <p>A <a href="#">programmer</a> who breaks<br>down problems with <a href="#">zen</a>-like<br>
+                    focus</p>
+                </div>
+            </div>
+            <!-- ninja card 2 ends -->
+        </div>
+        <!-- left column ends -->
+
+        <!-- right column begins -->
+        <div class="right-column">
+            <!-- add definition begins -->
+            <div class="defined">
+                <p class="right-column-p-tag">Dojonary is<br>defined by <strong>YOU</strong></p>
+                <button class="add-definition-btn" onclick="remove(this)">Add Definition</button>
+            </div>
+            <!-- add definition ends -->
+        </div>
+        <!-- right column ends -->
+    </div>
+    <!-- container align-items flex starts ends  -->
+    <script src="script.js"></script>
+</body>
+</html>
